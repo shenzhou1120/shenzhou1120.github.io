@@ -1,0 +1,112 @@
+---
+title: "Research"
+description: "Research trajectory from multimodal Earth observation learning to its foundations in crop observation and process-based modeling."
+---
+
+My research has developed from crop observation and process-based modeling toward multimodal Earth observation and spatiotemporal representation learning. My doctoral research focuses on high-resolution crop-yield prediction, learning with limited labels, and unified representations of satellite, meteorological, and static environmental data. This work builds on my master's research in multispectral crop observation, machine-learning-based retrieval, and process-based modeling of rice growth and soil–plant zinc dynamics. Across these stages, the central goal is to connect observations, environmental processes, and learning systems for agricultural and geospatial applications.
+
+## Doctoral Research
+
+::: {.research-stage-meta}
+2022.09–Present · Multimodal Earth observation and spatiotemporal learning
+:::
+
+::: {.research-path}
+::: {.research-step}
+::: {.step-number}
+D1
+:::
+
+## Multi-source Crop Yield Prediction
+
+### What information is available for prediction?
+
+The first doctoral stage establishes what satellite observations, meteorological variables, and static environmental factors contribute under a controlled evaluation setting. The emphasis is not only on predictive accuracy, but also on how information value changes across crop types, growing-season stages, regions, and years. This provides the empirical basis for deciding which signals a more general learning system should preserve.
+
+[Research details →](projects/multi-crop-yield.qmd){.text-link}
+:::
+
+::: {.research-arrow}
+↓
+:::
+
+::: {.research-step}
+::: {.step-number}
+D2
+:::
+
+## Learning with Limited Labels
+
+### How can spatial detail be learned when labels are scarce?
+
+The second stage examines the supervision problem. High-resolution targets are expensive to measure, while related spatial labels may be easier to obtain. I study how auxiliary supervision and shared spatial structure can improve representation learning without assuming that classification and continuous-valued prediction require identical features.
+
+[Research details →](projects/mt-cyp-net.qmd){.text-link} · [Publication →](https://doi.org/10.1016/j.jag.2025.104748){.text-link}
+:::
+
+::: {.research-arrow}
+↓
+:::
+
+::: {.research-step}
+::: {.step-number}
+D3
+:::
+
+## Multimodal Spatiotemporal Representation Learning
+
+### Can environmental dynamics be represented beyond a single task?
+
+The third stage generalizes beyond crop-yield prediction. It asks whether asynchronous satellite observations, meteorological forcing, and static environmental context can be organized within a common spatiotemporal representation that supports reconstruction, forecasting, and downstream geospatial prediction. The goal is to make time and location explicit query dimensions rather than treating them only as fixed input axes.
+
+[Research details →](projects/meteoste.qmd){.text-link}
+:::
+:::
+
+::: {.research-transition}
+My doctoral research builds on two complementary directions established during my master's studies: learning crop states from multispectral observations and representing crop–environment interactions through mechanistic models.
+:::
+
+## Master's Research
+
+::: {.research-stage-meta}
+2020.09–2022.05 · Crop observation and process-based modeling
+:::
+
+::: {.research-path}
+::: {.research-step}
+::: {.step-number}
+M1
+:::
+
+## Rice Leaf Area Index Retrieval
+
+### Learning crop physiological information from multispectral imagery
+
+This research investigated how multispectral observations can be used to estimate rice leaf area index, connecting image-derived spectral information with field measurements of crop growth. It established my early work in remote-sensing feature extraction, machine-learning-based retrieval, and the interpretation of crop physiological variables from imagery.
+
+[Publication →](https://doi.org/10.3390/rs13183663){.text-link}
+:::
+
+::: {.research-arrow}
+↓
+:::
+
+::: {.research-step}
+::: {.step-number}
+M2
+:::
+
+## Rice Growth and Zinc Dynamics Modeling
+
+### Connecting crop growth, soil transport, and grain biofortification
+
+This work developed a process-based framework for representing zinc movement across the soil–plant–grain continuum. By coupling crop growth, soil water and solute transport, and organ-level zinc translocation, it shifted my research from empirical retrieval toward explicit modeling of environmental processes and their interactions.
+
+[Research details →](projects/rzdm.qmd){.text-link} · [Publication →](https://doi.org/10.1016/j.compag.2026.112134){.text-link}
+:::
+:::
+
+::: {.research-synthesis}
+**Research trajectory:** retrieve crop states from imagery → model crop–environment processes → quantify multimodal information → learn spatial representations with limited supervision → develop transferable representations of environmentally driven spatiotemporal dynamics.
+:::

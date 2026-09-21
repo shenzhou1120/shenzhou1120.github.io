@@ -1,0 +1,46 @@
+project:
+  type: website
+  output-dir: _site
+
+website:
+  title: "Shenzhou Liu"
+  description: "Research portfolio in multimodal Earth observation and spatiotemporal representation learning."
+  site-url: "https://shenzhou1120.github.io"
+  repo-url: "https://github.com/shenzhou1120/shenzhou1120.github.io"
+  search: false
+  favicon: assets/images/favicon.svg
+  navbar:
+    background: light
+    left:
+      - text: Home
+        href: index.qmd
+      - text: Research
+        href: research.qmd
+      - text: Publications
+        href: publications.qmd
+      - text: CV
+        href: cv.qmd
+    right:
+      - text: Google Scholar
+        href: "https://scholar.google.com/citations?user=SPt69WYAAAAJ&hl=zh-CN"
+        aria-label: "Shenzhou Liu's Google Scholar profile"
+      - text: LinkedIn
+        href: "https://www.linkedin.com/in/shenzhou-liu-5299872b6/"
+        aria-label: "Shenzhou Liu's LinkedIn profile"
+      - text: Email
+        href: "mailto:shenzhouliu@whu.edu.cn"
+        aria-label: "Email Shenzhou Liu at shenzhouliu@whu.edu.cn"
+  page-footer:
+    left: "© Shenzhou Liu"
+    right: "Built with [Quarto](https://quarto.org/)"
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: false
+    link-external-newwindow: true
+    smooth-scroll: true
+
+execute:
+  freeze: auto

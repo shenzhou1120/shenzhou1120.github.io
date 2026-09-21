@@ -1,0 +1,46 @@
+---
+title: "Publications"
+description: "Publications and manuscripts under review."
+---
+
+## Peer-reviewed Articles
+
+::: {.publication-list}
+::: {.publication-item}
+**A process-based mechanistic modeling framework for soil–plant zinc dynamics and rice zinc biofortification**  
+**Liu, S.**, Zeng, W., Lei, G., & Huang, J. *Computers and Electronics in Agriculture*, 253, 112134, 2026.  
+[Paper](https://doi.org/10.1016/j.compag.2026.112134){.resource-link} · [Project](projects/rzdm.qmd){.resource-link}
+:::
+
+::: {.publication-item}
+**MT-CYP-Net: Multi-task network for pixel-level crop yield prediction under very few samples**  
+**Liu, S.**, Wang, D., Guo, H., Han, C., & Zeng, W. *International Journal of Applied Earth Observation and Geoinformation*, 143, 104748, 2025.  
+[Paper](https://doi.org/10.1016/j.jag.2025.104748){.resource-link} · [Project](projects/mt-cyp-net.qmd){.resource-link}
+:::
+
+::: {.publication-item}
+**Simulating the Leaf Area Index of Rice from Multispectral Images**  
+**Liu, S.**, Zeng, W., Wu, L., Lei, G., Chen, H., Gaiser, T., & Srivastava, A. K. *Remote Sensing*, 13(18), 3663, 2021.  
+[Paper](https://doi.org/10.3390/rs13183663){.resource-link}
+:::
+:::
+
+## Conference Contributions
+
+::: {.publication-list}
+::: {.publication-item}
+**Determining the meteorological disaster of maize and soybean by machine learning algorithms with Sentinel-2 satellite images**  
+Zeng, W., **Liu, S.**, & Huang, J. *EGU General Assembly 2023*, EGU23-6097, 2023. Conference poster.  
+[Conference record](https://meetingorganizer.copernicus.org/EGU23/EGU23-6097.html){.resource-link} · [DOI](https://doi.org/10.5194/egusphere-egu23-6097){.resource-link}
+:::
+:::
+
+## Manuscripts Under Review
+
+::: {.publication-list}
+::: {.publication-item}
+**Exploring the Practical Predictability of Pixel-Level Multi-Crop Yields Using a Controlled Machine Learning Framework**  
+Submitted to *Agronomy Journal*.  
+**Status:** Under review · [Project](projects/multi-crop-yield.qmd){.resource-link}
+:::
+:::
