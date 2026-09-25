@@ -19,16 +19,8 @@ Yield labels for rice, maize, and soybean from 2021–2024 are matched with Sent
 
 ## Key Results
 
-The associated manuscript, “Exploring the Practical Predictability of Pixel-Level Multi-Crop Yields Using a Controlled Machine Learning Framework,” is currently under review at *Agronomy Journal*. Verified benchmark tables and final quantitative conclusions will be added after peer review.
-
 ::: {.evidence-grid}
 ![Overall performance under three crop-identity pathways: no crop information, predicted crop identity, and true crop identity.](../assets/figures/multi-crop-pathways.png){.evidence-figure}
 
 ![Yield-prediction performance as remotely sensed and environmental information accumulates through the growing season.](../assets/figures/multi-crop-temporal.png){.evidence-figure}
-:::
-
-## Resources
-
-::: {.resource-grid}
-Resources will be added after peer review and public release.
 :::

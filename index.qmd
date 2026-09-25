@@ -27,7 +27,11 @@ Email: [shenzhouliu@whu.edu.cn](mailto:shenzhouliu@whu.edu.cn)
 School of Water Resources and Hydropower Engineering
 :::
 
-I study how multimodal Earth observation data can be transformed into robust and transferable representations for agricultural and environmental applications. My research focuses on multimodal spatiotemporal representation learning for Earth observation, process-based crop growth modeling, and high-resolution crop yield prediction.
+I study how multimodal Earth observation data can be transformed into robust and transferable representations for agricultural and environmental applications.
+
+::: {.hero-focus}
+My research focuses on **multimodal spatiotemporal representation learning for Earth observation**, **process-based crop growth modeling**, and **high-resolution crop yield prediction**.
+:::
 
 ::: {.hero-contact}
 [Google Scholar](https://scholar.google.com/citations?user=SPt69WYAAAAJ&hl=zh-CN) · [LinkedIn](https://www.linkedin.com/in/shenzhou-liu-5299872b6/) · [ORCID](https://orcid.org/0009-0007-5718-978X)

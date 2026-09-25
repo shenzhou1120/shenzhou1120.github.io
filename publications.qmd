@@ -1,6 +1,6 @@
 ---
 title: "Publications"
-description: "Publications and manuscripts under review."
+description: "Peer-reviewed articles and conference contributions."
 ---
 
 ## Peer-reviewed Articles
@@ -32,15 +32,5 @@ description: "Publications and manuscripts under review."
 **Determining the meteorological disaster of maize and soybean by machine learning algorithms with Sentinel-2 satellite images**  
 Zeng, W., **Liu, S.**, & Huang, J. *EGU General Assembly 2023*, EGU23-6097, 2023. Conference poster.  
 [Conference record](https://meetingorganizer.copernicus.org/EGU23/EGU23-6097.html){.resource-link} · [DOI](https://doi.org/10.5194/egusphere-egu23-6097){.resource-link}
-:::
-:::
-
-## Manuscripts Under Review
-
-::: {.publication-list}
-::: {.publication-item}
-**Exploring the Practical Predictability of Pixel-Level Multi-Crop Yields Using a Controlled Machine Learning Framework**  
-Submitted to *Agronomy Journal*.  
-**Status:** Under review · [Project](projects/multi-crop-yield.qmd){.resource-link}
 :::
 :::
