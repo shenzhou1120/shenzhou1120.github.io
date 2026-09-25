@@ -38,13 +38,13 @@ h2 { margin-top: 2.6rem; }
 .hero {
   max-width: 1120px;
   margin: 0 auto;
-  padding: clamp(2.5rem, 5vw, 4rem) 1.5rem clamp(3rem, 6vw, 4.5rem);
+  padding: clamp(1.75rem, 3.5vw, 2.75rem) 1.5rem clamp(3rem, 6vw, 4.5rem);
   border-bottom: 1px solid var(--line);
 }
 
 .hero h1 {
-  margin: 0 0 0.35rem;
-  font-size: clamp(2.5rem, 5vw, 3.8rem);
+  margin: 0 0 0.25rem;
+  font-size: clamp(2.35rem, 4.5vw, 3.35rem);
 }
 
 .hero-grid {
@@ -68,13 +68,28 @@ h2 { margin-top: 2.6rem; }
 .hero-position {
   color: var(--accent);
   font-size: 1rem;
-  font-weight: 700;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
+  font-weight: 650;
+  letter-spacing: 0.035em;
+  margin-bottom: 0.35rem;
+}
+
+.hero-email {
+  margin: 0 0 0.8rem;
+  font-size: 0.95rem;
+}
+
+.hero-position p,
+.hero-email p {
+  margin: 0;
+}
+
+.hero-email a {
+  color: var(--accent);
+  text-decoration: none;
 }
 
 .hero-affiliation {
-  margin: 0.5rem 0 1.4rem;
+  margin: 0.35rem 0 1.4rem;
   color: var(--ink);
   font-size: 1rem;
   font-weight: 400;
@@ -113,7 +128,7 @@ h2 { margin-top: 2.6rem; }
 
 .profile-photo {
   width: 100%;
-  height: 390px;
+  height: 445px;
   object-fit: cover;
   object-position: 69% center;
   border: 1px solid var(--line);
@@ -397,7 +412,7 @@ h2 { margin-top: 2.6rem; }
 }
 
 @media (max-width: 520px) {
-  .hero { padding: 2rem 1rem 2.75rem; }
+  .hero { padding: 1.35rem 1rem 2.75rem; }
   .content-section { padding-left: 1rem; padding-right: 1rem; }
   .hero-actions .btn { width: 100%; }
   .research-step { padding-left: 1rem; }

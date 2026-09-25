@@ -12,10 +12,14 @@ page-layout: full
 :::
 
 ::: {.hero-copy}
-# Shenzhou Liu
-
 ::: {.hero-position}
 PhD Candidate
+:::
+
+# Shenzhou Liu
+
+::: {.hero-email}
+Email: [shenzhouliu@whu.edu.cn](mailto:shenzhouliu@whu.edu.cn)
 :::
 
 ::: {.hero-affiliation}
@@ -23,10 +27,10 @@ PhD Candidate
 School of Water Resources and Hydropower Engineering
 :::
 
-I study how multimodal Earth observation data can be transformed into robust and transferable representations for agricultural and environmental applications. My research focuses on multimodal remote sensing, spatiotemporal representation learning, crop yield prediction, and learning under limited supervision. My current work explores how satellite observations, meteorological forcing, and static environmental information can be jointly modeled to support high-resolution prediction and downstream geospatial tasks.
+I study how multimodal Earth observation data can be transformed into robust and transferable representations for agricultural and environmental applications. My research focuses on multimodal spatiotemporal representation learning for Earth observation, process-based crop growth modeling, and high-resolution crop yield prediction.
 
 ::: {.hero-contact}
-[Email](mailto:shenzhouliu@whu.edu.cn) · [Google Scholar](https://scholar.google.com/citations?user=SPt69WYAAAAJ&hl=zh-CN) · [LinkedIn](https://www.linkedin.com/in/shenzhou-liu-5299872b6/)
+[Google Scholar](https://scholar.google.com/citations?user=SPt69WYAAAAJ&hl=zh-CN) · [LinkedIn](https://www.linkedin.com/in/shenzhou-liu-5299872b6/) · [ORCID](https://orcid.org/0009-0007-5718-978X)
 :::
 
 ::: {.hero-actions}
