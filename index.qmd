@@ -19,7 +19,7 @@ PhD Candidate
 :::
 
 ::: {.hero-affiliation}
-Wuhan University  
+**Wuhan University**  
 School of Water Resources and Hydropower Engineering
 :::
 
