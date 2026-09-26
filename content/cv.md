@@ -1,18 +1,3 @@
----
-title: "CV"
-description: "Academic curriculum vitae."
----
-
-::: {.cv-header}
-::: {}
-## Shenzhou Liu
-
-PhD Candidate · School of Water Resources and Hydropower Engineering, Wuhan University  
-[shenzhouliu@whu.edu.cn](mailto:shenzhouliu@whu.edu.cn) · [Google Scholar](https://scholar.google.com/citations?user=SPt69WYAAAAJ&hl=zh-CN) · [LinkedIn](https://www.linkedin.com/in/shenzhou-liu-5299872b6/)
-:::
-
-:::
-
 ## Education
 
 **PhD Candidate**  
@@ -22,7 +7,7 @@ Dissertation: *Multimodal Large-Scale High-Resolution Crop Yield Prediction unde
 
 **Master's Degree**  
 School of Water Resources and Hydropower Engineering, Wuhan University · 2020.09–2022.05  
-Research: crop growth modeling and UAV-based retrieval of crop physiological parameters  
+Research: crop growth modelling and UAV-based retrieval of crop physiological parameters\
 Thesis: *Effects and Simulation of Zinc on the Growth of Different Rice Varieties*
 
 **Bachelor's Degree**  
@@ -30,12 +15,9 @@ School of Water Resources and Hydropower Engineering, Wuhan University · 2016.0
 
 ## Research Interests
 
-- Multimodal Earth Observation
-- Spatiotemporal Representation Learning
-- Remote Sensing
-- Crop Yield Prediction
-- Learning with Limited Labels
-- Geospatial Intelligence
+- Multimodal Spatiotemporal Representation Learning for Earth Observation
+- Process-based Crop Growth Modeling
+- High-resolution Crop Yield Prediction
 
 ## Publications
 
@@ -63,14 +45,14 @@ Developed OpenCV-based crop measurement tools and extended WOFOST with a zinc up
 
 ## Projects
 
-- [Meteo-STE](projects/meteoste.qmd) — Environment-driven multimodal spatiotemporal representation learning
-- [MT-CYP-Net](projects/mt-cyp-net.qmd) — Pixel-level crop yield prediction under limited samples
-- [Multi-Crop Yield Benchmark](projects/multi-crop-yield.qmd) — Unified evaluation of multi-source crop yield prediction
-- [Rice Zinc Dynamics Model](projects/rzdm.qmd) — Process-based modeling of soil–plant zinc dynamics and rice zinc biofortification
+- **Meteo-STE** — Environment-driven multimodal spatiotemporal representation learning
+- **MT-CYP-Net** — Pixel-level crop-yield prediction under limited samples
+- **Multi-Crop Yield Benchmark** — Unified evaluation of multi-source crop-yield prediction
+- **Rice Zinc Dynamics Model** — Process-based modelling of soil–plant zinc dynamics and rice zinc biofortification
 
 ## Skills
 
-- **Deep learning and algorithm development:** PyTorch; remote-sensing time-series representation learning; multimodal spatiotemporal modeling.
-- **Remote-sensing processing:** Sentinel-2 optical-imagery workflows, including download, calibration, atmospheric correction, cloud detection, and mosaicking; crop classification and yield mapping at county and municipal scales.
-- **Process-based crop modeling:** source-level WOFOST development and zinc uptake–allocation–translocation modeling; HYDRUS-1D.
+- **Deep learning and algorithm development:** PyTorch; remote-sensing time-series representation learning; multimodal spatiotemporal modelling.
+- **Remote-sensing processing:** Sentinel-2 optical-imagery workflows; crop classification and yield mapping at county and municipal scales.
+- **Process-based crop modelling:** source-level WOFOST development and zinc uptake–allocation–translocation modelling; HYDRUS-1D.
 - **Engineering and delivery:** Python/Flask development, on-site implementation, and cross-organization technical coordination.

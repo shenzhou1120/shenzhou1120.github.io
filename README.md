@@ -1,21 +1,35 @@
-# Academic research website
+# Shenzhou Liu — Academic Website
 
-Quarto source for a research portfolio focused on multimodal Earth observation and spatiotemporal representation learning.
+Personal academic website for Shenzhou Liu, built with the [PRISM](https://github.com/xyjoey/PRISM) template using Next.js, TypeScript, and Tailwind CSS.
 
-## Local preview
+## Local development
 
-Install [Quarto](https://quarto.org/docs/get-started/), then run:
+Requires Node.js 22 or later.
 
 ```bash
-quarto preview
+npm install
+npm run dev
 ```
 
-Use `quarto render` for a production build. Generated files are written to `_site/`.
+Open <http://localhost:3000>.
+
+## Production build
+
+```bash
+npm run build
+```
+
+The static site is exported to `out/`.
+
+## Content
+
+- `content/config.toml` — profile, social links, navigation, and site settings
+- `content/about.toml` and `content/bio.md` — homepage content
+- `content/research.toml` — research themes and expandable research narratives
+- `content/publications.bib` — publication list
+- `content/cv.md` — web CV
+- `public/assets/` — profile image and research figures
 
 ## Deployment
 
-Pushes to `main` are rendered and deployed to GitHub Pages by the workflow in `.github/workflows/publish.yml`.
-
-The public site is available at [https://shenzhou1120.github.io](https://shenzhou1120.github.io).
-
-When a final CV PDF or additional research resources become publicly available, add them under `assets/` and expose their links in the relevant page.
+Pushing to `main` triggers `.github/workflows/deploy.yml`, which builds the static export and deploys `out/` to GitHub Pages.

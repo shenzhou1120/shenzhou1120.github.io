@@ -1,0 +1,4 @@
+type = "publication"
+title = "Publications"
+description = "Peer-reviewed articles and conference contributions."
+source = "publications.bib"

@@ -1,0 +1,69 @@
+type = "card"
+title = "Research"
+
+[[items]]
+slug = "multimodal-spatiotemporal-representation-learning"
+title = "Multimodal Spatiotemporal Representation Learning"
+date = "2026.05–Present"
+image = "/assets/figures/meteoste-data-coverage.png"
+content = "This current stage develops query-based representations of land-surface dynamics from heterogeneous, asynchronous, and incomplete Earth observation data."
+details = """
+**Framework.** My current work explores a query-based multimodal spatiotemporal representation-learning framework for Earth observation. Heterogeneous observations are represented as multimodal tokens augmented with modality, temporal, and spatial embeddings.
+
+**Learning formulation.** A temporal query uses attention over available observations to infer a representation at a specified location and time. Filtering, forecasting, and smoothing can be expressed within the same framework by changing the temporal relationship between observations and the query. Training primarily uses self-supervised context–target prediction.
+
+**Current focus.** Preliminary experiments indicate that accurate reconstruction does not necessarily imply faithful representation of temporal dynamics. I am therefore focusing on temporal representation learning and extension across modalities and datasets.
+"""
+tags = ["Multimodal learning", "Earth observation", "Self-supervised learning"]
+
+[[items]]
+slug = "learning-with-limited-labels"
+title = "Learning with Limited Labels"
+date = "2023.12–2025.08"
+image = "/assets/figures/mt-cyp-net-architecture.jpg"
+content = "This stage investigated how auxiliary supervision and shared spatial representations can support pixel-level crop-yield prediction when dense yield labels are scarce."
+details = """
+**Starting question.** Dense-prediction architectures such as U-Net had become effective for pixel-level remote-sensing tasks, yet were rarely used for pixel-level crop-yield prediction. I concluded that the main obstacle was not the architecture itself, but the scarcity of reliable, spatially dense yield labels.
+
+**Reframing the problem.** Early experiments with clustering-based augmentation and losses for long-tailed yield distributions showed that augmentation could introduce label noise. This shifted the question from compensating for scarce data to providing sufficient supervisory signals. I therefore developed **MT-CYP-Net**, which jointly models crop classification and yield prediction through shared representations.
+
+**Research transition.** The work demonstrated the value of auxiliary supervision while revealing that supervised representations remain constrained by task-specific labels. This motivated my subsequent turn toward self-supervised learning from unlabeled Earth observation data.
+"""
+tags = ["Crop yield prediction", "Multi-task learning", "Limited labels"]
+links = [{ label = "Paper", url = "https://doi.org/10.1016/j.jag.2025.104748" }]
+
+[[items]]
+slug = "multi-source-crop-yield-prediction"
+title = "Multi-source Crop Yield Prediction"
+date = "2023.03–2025.12"
+image = "/assets/figures/multi-crop-benchmark-design.png"
+content = "This stage established a controlled benchmark for crop-yield prediction across heterogeneous crops, regions, data sources, seasonal windows, and years."
+details = """
+**Origin.** This research began with practical questions encountered while developing crop-yield models for an enterprise partner: whether crops and regions should be modelled separately or jointly, and which modelling choices matter as prediction expands to heterogeneous agricultural systems.
+
+**Benchmark.** Under consistent data splits and evaluation protocols, I examined joint versus crop-specific modelling, absolute versus normalized targets, crop identity, combinations of remote-sensing, meteorological, soil, and terrain variables, seasonal windows, and cross-year transfer.
+
+**Key finding.** Reliable crop identity proved more consequential than the choice among the evaluated tree-based algorithms. Classification errors propagated into yield regression, while remote-sensing and meteorological observations supported prediction before the end of the growing season.
+
+**Research transition.** The limitations of crop-identity-dependent pipelines and sample-independent tabular models motivated my move toward end-to-end spatial learning and multi-task representation learning.
+"""
+tags = ["Crop yield", "Multimodal data", "Benchmarking"]
+
+[[items]]
+slug = "rice-growth-and-zinc-dynamics-modeling"
+title = "Rice Growth and Zinc Dynamics Modeling"
+date = "2020.05–2022.05"
+image = "/assets/figures/rzdm-roadmap.png"
+content = "This work linked crop growth, soil transport, and organ-level zinc translocation within a process-based modelling framework."
+details = "The framework represents zinc movement across the soil–plant–grain continuum by coupling crop growth, soil water and solute transport, and organ-level zinc translocation. It shifted my research from empirical retrieval toward explicit modelling of environmental processes and their interactions."
+tags = ["Process-based modelling", "Rice", "Biofortification"]
+links = [{ label = "Paper", url = "https://doi.org/10.1016/j.compag.2026.112134" }]
+
+[[items]]
+slug = "rice-leaf-area-index-retrieval"
+title = "Rice Leaf Area Index Retrieval"
+date = "2020–2021"
+content = "This work connected multispectral observations with field measurements to retrieve a key physiological indicator of rice growth."
+details = "This research investigated how multispectral observations can be used to estimate rice leaf area index. It established my early work in remote-sensing feature extraction, machine-learning-based retrieval, and interpretation of crop physiological variables from imagery."
+tags = ["Remote sensing", "Leaf area index", "Machine learning"]
+links = [{ label = "Paper", url = "https://doi.org/10.3390/rs13183663" }]

@@ -1,0 +1,22 @@
+type = "about"
+title = "About"
+
+[profile]
+research_interests = [
+  "Multimodal Spatiotemporal Representation Learning for Earth Observation",
+  "Process-based Crop Growth Modeling",
+  "High-resolution Crop Yield Prediction"
+]
+
+[[sections]]
+id = "about"
+type = "markdown"
+source = "bio.md"
+title = "About"
+
+[[sections]]
+id = "featured_publications"
+type = "publications"
+title = "Representative Publications"
+filter = "selected"
+limit = 3

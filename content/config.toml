@@ -1,0 +1,58 @@
+[site]
+title = "Shenzhou Liu"
+description = "PhD candidate working on multimodal Earth observation and spatiotemporal representation learning."
+favicon = "/assets/images/favicon.svg"
+last_updated = "September 26, 2026"
+
+[author]
+name = "Shenzhou Liu"
+title = "PhD Candidate"
+institution = "Wuhan University · School of Water Resources and Hydropower Engineering"
+avatar = "/assets/images/profile.jpg"
+
+[social]
+email = "shenzhouliu@whu.edu.cn"
+google_scholar = "https://scholar.google.com/citations?user=SPt69WYAAAAJ&hl=zh-CN"
+orcid = "https://orcid.org/0009-0007-5718-978X"
+github = "https://github.com/shenzhou1120"
+linkedin = "https://www.linkedin.com/in/shenzhou-liu-5299872b6/"
+
+[features]
+enable_likes = false
+enable_one_page_mode = false
+
+[i18n]
+enabled = false
+locales = ["en"]
+default_locale = "en"
+mode = "fixed"
+fixed_locale = "en"
+persist = false
+switcher = false
+
+[i18n.labels]
+en = "English"
+
+[[navigation]]
+title = "About"
+type = "page"
+target = "about"
+href = "/"
+
+[[navigation]]
+title = "Research"
+type = "page"
+target = "research"
+href = "/research"
+
+[[navigation]]
+title = "Publications"
+type = "page"
+target = "publications"
+href = "/publications"
+
+[[navigation]]
+title = "CV"
+type = "page"
+target = "cv"
+href = "/cv"
